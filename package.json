@@ -1,0 +1,14 @@
+{
+    "name": "notadd-cli",
+    "version": "2.0.0",
+    "author": {
+        "name": "notadd",
+        "url": "https://github.com/notadd"
+    },
+    "description": "Tool chain for Notadd.",
+    "license": "Apache-2.0",
+    "private": true,
+    "workspaces": [
+        "package"
+    ]
+}

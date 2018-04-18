@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+"use strict";
+
+process.title = "ng";
+
+const red = require("chalk").red;
+
+const version = process.version.substr(1).split(".");
+
+if (Number(version[0]) < 9 || (Number(version[0]) === 9 && Number(version[1]) < 1)) {
+    process.stderr.write(red(
+        "You are running version " + process.version + " of Node.js, which is not supported by Notadd CLI v2.\n" +
+        "The official Node.js version that is supported is 9.1.0 and greater.\n\n" +
+        "Please visit https://nodejs.org/en/ to find instructions on how to update Node.js.\n"
+    ));
+
+    process.exit(3);
+}
