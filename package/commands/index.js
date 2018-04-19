@@ -1,4 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var create_command_1 = require("./create.command");
-exports.CreateCommand = create_command_1.CreateCommand;
+var generate_command_1 = require("./generate.command");
+exports.GenerateCommand = generate_command_1.GenerateCommand;
+var new_command_1 = require("./new.command");
+exports.NewCommand = new_command_1.NewCommand;
