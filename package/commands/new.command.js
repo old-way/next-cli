@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 class NewCommand {
     async initialize(program) {
         program
-            .command("create", "Generate a new project from Notadd")
-            .alias("c")
+            .command("new", "Generate a new project from Notadd")
+            .alias("n")
             .argument("[name]", "The Notadd.JS application name.")
             .argument("[description]", "The Notadd.JS application description.")
             .argument("[version]", "The Notadd.JS application version.")

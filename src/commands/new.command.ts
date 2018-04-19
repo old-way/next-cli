@@ -1,8 +1,8 @@
 export class NewCommand {
     public async initialize(program: Caporal) {
         program
-            .command("create", "Generate a new project from Notadd")
-            .alias("c")
+            .command("new", "Generate a new project from Notadd")
+            .alias("n")
             .argument("[name]", "The Notadd.JS application name.")
             .argument("[description]", "The Notadd.JS application description.")
             .argument("[version]", "The Notadd.JS application version.")
