@@ -10,6 +10,9 @@
     "bin": {
         "notadd": "./bin/notadd"
     },
+    "dependencies": {
+        "caporal": "^0.10.0"
+    },
     "engines": {
         "node": ">=9.1.0"
     }
